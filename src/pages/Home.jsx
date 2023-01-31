@@ -1,5 +1,7 @@
 import Banner from "../components/Banner";
 import Commitment from "../components/Commitment";
+import CTA from "../components/CTA";
+import Help from "../components/Help";
 import HowItWorks from "../components/HowItWorks";
 import Meet from "../components/Meet";
 import OurWork from "../components/OurWork";
@@ -94,6 +96,12 @@ function Home() {
       </div>
       <div>
         <Testimonials/>
+      </div>
+      <div>
+        <CTA/>
+      </div>
+      <div>
+        <Help/>
       </div>
     </>
   );
