@@ -8,7 +8,7 @@ import github from "../images/github.png";
 function Footer() {
   return (
     <>
-      <div className="footer flex justify-around p-8 bg-[#FAFAFA]">
+      <div className="footer text-black flex flex-col md:flex-row justify-around p-8 bg-[#FAFAFA]">
         <div className="left">
           <div className="logo flex justify-start items-center">
             <img src={Logo} className="w-12 mr-2" alt="" />
@@ -39,8 +39,8 @@ function Footer() {
             </button>
           </div>
         </div>
-        <div className="right flex">
-          <div className="mx-4">
+        <div className="right flex text-sm my-4">
+          <div className="mx-2 md:mx-4">
             <ul className=" leading-10">
               <li>Work With Us</li>
               <li>Advertise With Us</li>
@@ -48,7 +48,7 @@ function Footer() {
               <li>Business Advices</li>
             </ul>
           </div>
-          <div className="mx-4">
+          <div className="mx-2 md:mx-4">
             <ul className=" leading-10">
               <li>Private Coaching</li>
               <li>Our Work</li>
@@ -56,7 +56,7 @@ function Footer() {
               <li>Our Team</li>
             </ul>
           </div>
-          <div className="mx-4">
+          <div className="mx-2 md:mx-4">
             <ul className=" leading-10">
               <li>About Us</li>
               <li>FAQs</li>

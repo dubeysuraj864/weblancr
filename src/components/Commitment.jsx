@@ -1,9 +1,9 @@
 function Commitment() {
   return (
     <>
-      <div className="commitment flex p-2 my-10">
-        <div className="left flex md:w-[50vw]">
-          <div>
+      <div className="commitment flex flex-col md:flex-row items-center p-2 my-10">
+        <div className="left flex justify-center w-[100%] md:w-[50%]">
+          <div className="">
             <div className="flex flex-col mr-6 md:2/3 my-4">
               <span className="text-4xl font-medium">245%</span>
               <span className="w-4/5 text-xs font-light leading-4 mt-2">More revenues for the brand</span>
@@ -24,9 +24,9 @@ function Commitment() {
             </div>
           </div>
         </div>
-        <div className="right md:w-[50vw] flex flex-col">
+        <div className="right flex flex-col w-[100%] md:w-[50%]">
           <span className="py-2 text-4xl font-bold">Our Commitments</span>
-          <span className=" font-light leading-6">
+          <span className=" font-light leading-6 md:pr-10 text-justify">
             Use this section to describe your company and the products you
             offer. You could share your company’s story and details about why
             you are in business. Use this section to describe your company and

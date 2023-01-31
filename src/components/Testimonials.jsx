@@ -11,9 +11,9 @@ function Testimonials() {
   return (
     <>
       <div className="testimonials my-16 ">
-        <div className="top flex justify-between items-center">
-          <div className="left flex flex-col">
-            <span className="text-2xl font-bold">What Our Client Said about us</span>
+        <div className="top flex justify-between items-start px-2 md:px-28">
+          <div className="left flex flex-col ">
+            <span className=" text-lg md:text-2xl font-bold">What Our Client Said about us</span>
             <span className="my-2">Use this section to describe your company </span>
           </div>
           <div className="right flex">
@@ -21,7 +21,7 @@ function Testimonials() {
             <div onClick={scrollRight} className="w-[40px] h-[40px] hover:bg-blue-600 transition-all cursor-pointer bg-slate-300 rounded-full m-1"></div>
           </div>
         </div>
-        <div id="testimonial" className="bottom flex overflow-auto scroll-smooth my-6">
+        <div id="testimonial" className="bottom flex overflow-auto scroll-smooth my-6 md:px-24">
             <div>
                 <TestCard/>
             </div>
