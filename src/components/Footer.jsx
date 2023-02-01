@@ -16,19 +16,19 @@ function Footer() {
           </div>
           <div className="my-2">West Delhi, India</div>
           <div className="flex">
-            <a href="#">
+            <a href="https://www.instagram.com/weblancr/" target="blank">
               <img className="w-[30px] my-2 mr-2" src={instagram} alt="" />
             </a>
-            <a href="#">
+            <a href="https://twitter.com/dubeysuraj864" target="blank">
               <img className="w-[30px] my-2 mr-2" src={twitter} alt="" />
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/profile.php?id=100089638786484" target="blank">
               <img className="w-[30px] my-2 mr-2" src={facebook} alt="" />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/suraj-dubey-584a61246/" target="blank">
               <img className="w-[30px] my-2 mr-2" src={linkedin} alt="" />
             </a>
-            <a href="#">
+            <a href="https://github.com/dubeysuraj864" target="blank">
               <img className="w-[30px] my-2 mr-2" src={github} alt="" />
             </a>
           </div>
