@@ -1,7 +1,7 @@
 function Help() {
   return (
     <>
-      <div className="help my-10 flex flex-col md:flex-row justify-center md:mx-24">
+      <div className="help my-10 flex flex-col md:flex-row justify-center lg:mx-24">
         <div className="left m-6 md:w-[50vw]">
           <hr />
           <div className="my-6 flex justify-between">
